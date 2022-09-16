@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="commons.css">
+        <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="verify-email">
+        <img src="./sendmail.png" class="sendmail"
+            alt="Send Email On Local - Send Email@clipartmax.com">
+        <div class="title text-white">We'd sent verify code to your email, check your email, get code then put it in below input</div><br/>
+        <h4 class="text-secondary-1">Enter your verify code</h4>
+        <div class="verify-inp d-flex justify-content-center align-items-center mt-1">
+            <input type="text" maxlength="1" name="verify" class="verify-inp-box text-center mx-1 text-secondary-1"/>
+            <input type="text" maxlength="1" name="verify" class="verify-inp-box text-center mx-1 text-secondary-1" />
+            <input type="text" maxlength="1" name="verify" class="verify-inp-box text-center mx-1 text-secondary-1" />
+            <input type="text" maxlength="1" name="verify" class="verify-inp-box text-center mx-1 text-secondary-1" />
+            <input type="text" maxlength="1" name="verify" class="verify-inp-box text-center mx-1 text-secondary-1" />
+            <input type="text" maxlength="1" name="verify" class="verify-inp-box text-center mx-1 text-secondary-1" />
+        </div>
+        <input type="submit" class="smt-btn px-5 mt-5"/> 
+        <p class="text-center text-secondary-1 mt-3 link">Resend verify code</p>
+    </div>
+    <div class="noti px-2">
+        <div class="h-100 noti-icon">
+            <i class="fa-solid fa-circle-check noti-icon-success"></i>
+        </div>
+        <div class="px-2 noti-icon-success">
+        </div>
+    </div>
+    <div class="container-fluid full-height bg-main">
+        <div class="container auth-container h-100 d-flex">
+            <div class="shop-review d-flex justify-content-center flex-column h-100 w-50 mr-1">
+                <h1 class="shop-name text-white"><strong class="text-secondary-1">VMO SHOP</strong>, HIGH QUALITY PHONE</h1>    
+                <p class="text-white f-18">provide new, earliest and best quality phones</p>
+                <div>
+                    <strong style="font-size: 100px;" class="text-white"><strong class="text-secondary-1">V</strong>MO</strong>
+                </div>
+            </div>
+            <div class="login-form w-50 h-100 d-flex justify-content-center align-items-center">
+                <div class="login-border">
+                    <div class="title text-white f-22 bold"><span class="text-secondary-1">REGISTER</span> new account</div>
+                    <p class="text-white mt-3 mb-1">Username</p>
+                    <input name="account" type="text" class="inp w-100" placeholder="Your username">
+                    <p class="text-white mt-3 mb-1">Password</p>
+                    <input name="password" type="password" class="inp w-100" placeholder="Your password">
+                    <p class="text-white mt-3 mb-1">Re-password</p>
+                    <input name="password" type="password" class="inp w-100" placeholder="Confirm your password">
+                    <p class="text-white mt-3 mb-1">Email</p>
+                    <input name="account" type="text" class="inp w-100" placeholder="Your email">
+                    <input type="submit" class="smt-btn mt-4 w-100">
+                    <center class="mt-3">
+                        <p class="text-white">Make sure your email is belong to you</p>
+                    </center>
+                    <p class="mt-2 text-center text-white">Have account ? <span class="text-secondary-1">Login</span> now</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

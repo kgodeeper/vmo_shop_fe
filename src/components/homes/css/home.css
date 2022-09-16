@@ -1,0 +1,121 @@
+.nav-bar {
+    background-color: #000;
+    z-index: 1;
+    padding: 20px 15%;
+}
+
+.home-full-height{
+    height: fit-content !important;
+}
+
+.main-width {
+    margin: 20px 15%;
+}
+
+.account-more {
+    width: 200px;
+    cursor: pointer;
+}
+
+.more {
+    padding: 0;
+    margin: 0;
+}
+
+.more-item {
+    border: 1px solid white;
+    padding: 5px 10px;
+}
+
+.more-item:hover {
+    background-color: #000 !important;
+    border: 1px solid #f76e00;
+    color: #f76e00;;
+    transition: 0.5s;
+}
+
+.cate-banner{
+    width: 60px;
+    height: 60px;
+}
+
+.cate-list {
+    cursor: pointer;
+    list-style: none;
+    overflow: hidden;
+    display: block;
+    width: 600px;
+    width: fit-content;
+    padding: 0;
+    text-align: center;
+}
+
+.cate-item{
+    display: inline-block !important;
+    width: 19% !important;
+    text-align: center;
+}
+.cate-item p {
+    font-size: 12px !important;
+}
+
+.cate-item:hover{
+    background-color: #f76e0055;
+}
+
+.categories {
+    background-color: #000;
+    display: block;
+}
+
+.banner {
+    height: 300px !important;
+    overflow: hidden;
+}
+
+.f-14 {
+    font-size: 14px !important;
+}
+
+.sale-remain {
+    border-radius: 5px;
+}
+
+.list-sale-product {
+    background-color: #000;
+    text-align: center;
+}
+
+.sale-item {
+    display: inline-block;
+    margin: 10px;
+}
+
+.sale-item:hover{
+    background-image: linear-gradient(to bottom, #f76e00, #000);
+}
+
+.sale-item:hover > .product {
+    border-color: #f76e00 !important;
+}
+
+.list-coupons-container {
+    background-color: #000;
+    list-style-type: none;
+    display: block;
+}
+
+.item-coupon {
+    width: 48% !important;
+    display: inline-block !important;
+}
+
+.save-coupon {
+    border: 1px solid #f76e00;
+}
+
+.save-coupon:hover {
+    background-color: white !important;
+    color: #f76e00 !important;
+    border-color: #f76e00 !important;
+}

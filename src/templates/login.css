@@ -1,0 +1,7 @@
+.login-border {
+    border: 1px solid #f8f8f8;
+    width: 90%;
+    height: fit-content;
+    padding: 60px;
+    border-radius: 5%;
+}

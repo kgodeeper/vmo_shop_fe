@@ -1,0 +1,301 @@
+.full-height {
+    height: 100vh;
+    min-height: 600px;
+}
+
+.margin-nav {
+    margin-top: 70px !important;
+    padding-top: 30px;
+}
+
+.bg-main {
+    background-color: #161616 !important;
+}
+
+.auth-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.h-75 {
+    height: 75%;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.text-secondary-1 {
+    color: #f76e00 !important;
+}
+
+.f-18 {
+    font-size: 18px !important;
+}
+
+.f-22 {
+    font-size: 22px !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.inp {
+    outline: none;
+    border: none;
+    box-shadow: -2px -2px rgba(0, 0, 0, 0.25);
+    padding: 10px 10px;
+}
+
+.smt-btn {
+    outline: none;
+    border: none;
+    padding: 10px 10px;
+    border: 1px solid #161616;
+    background-color: #f76e00;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.smt-btn:hover {
+    background-color: #161616;
+    border: 1px solid #f76e00;
+    color: #f76e00;
+}
+
+.fake-ckc {
+    background-color: white;
+    border: 1px solid #fff;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+}
+
+.ckc-active {
+    background-color: #f76e00;
+}
+
+.vmo-logo {
+    font-size: 100px;
+}
+
+/* ================================================= */
+@keyframes SHOW {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.25;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.bg-smoke {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.noti {
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    top: 50px;
+    box-shadow: 0 0 5px white;
+    border: 1px solid #fff;
+    right: 30px;
+    width: fit-content;
+    height: fit-content;
+    min-width: fit-content;
+    min-height: fit-content;
+    animation: SHOW 0.5s;
+}
+
+.noti-content {
+    overflow-wrap: break-word;
+}
+
+.noti-icon {
+    font-size: 40px;
+}
+
+.noti-icon-failure {
+    color: #c62828;
+}
+
+.noti-icon-success {
+    color: #408140;
+}
+
+.verify-email {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: #161616;
+    z-index: 0;
+}
+
+/*========================================================= */
+
+.verify-email .title {
+    font-size: 18px !important;
+    color: white;
+}
+
+.verify-inp-box {
+    box-sizing: border-box;
+    width: 40px;
+    height: 50px;
+    font-size: 22px;
+    border: 2px solid white;
+    border-radius: 2px;
+    outline: none;
+    background-color: #161616;
+    color: white;
+}
+
+.verify-inp-box:focus-visible{
+    border-color: #f76e00 !important;
+}
+
+.f-70 {
+    font-size: 70px;
+}
+
+.sendmail {
+    height: 30%;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.account img {
+    width: 28px !important;
+    height: 28px !important;
+    border: 1px solid white;
+}
+
+.more {
+    color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.w-30 {
+    width: 30% !important;
+}
+
+.w-70 {
+    width: calc(70% - 10px) !important;
+}
+
+.h-50 {
+    height: calc(50% - 5px) !important;
+}
+
+.bg-secondary-1 {
+    background-color: #f76e00 !important;
+}
+
+.product {
+    display: inline-block;
+    width: 250px !important;
+    height: 350px !important;
+    padding: 15px;
+    border: 1px solid #e3e3e3;
+}
+
+.product .product-name {
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.product .product-img {
+    overflow: hidden;
+    height: 270px !important;
+}
+
+.product .product-img img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.product:hover>.product-img img {
+    scale: 1.05;
+    transition: .4s;
+}
+
+.product-img {
+    position: relative;
+}
+
+.product-status {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f76e0099;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid #f76e00;
+}
+
+.status-bound {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #f76e00;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateZ(-30deg);
+}
+
+.bg-coupon {
+    background-color: #198754;
+}
+
+.f-25 {
+    font-size: 25px !important;
+}
+
+.footer {
+    background-color: #000;
+}
